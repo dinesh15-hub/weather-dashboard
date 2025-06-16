@@ -1,42 +1,41 @@
-# 🌤️ Weather Dashboard
+# 🌦️ Weather Dashboard
 
-A responsive weather dashboard that fetches real-time weather data for any city using the OpenWeatherMap API. Built with HTML, CSS, and JavaScript.
+A responsive and modern weather dashboard built with HTML, CSS, and JavaScript.  
+It fetches live weather data using the OpenWeatherMap API and displays current temperature, weather icons, and conditions based on user input.
 
 ---
 
 ## 🔗 Live Demo
 
-👉 [Click here to view the live site](https://dinesh15-hub.github.io/weather-dashboard/)  
-*(Make sure you deploy using GitHub Pages)*
+👉 [View Live Project](https://dinesh15-hub.github.io/weather-dashboard/)
 
 ---
 
 ## 📸 Output Screenshots
 
-| Home Page | Search Result |
-|-----------|----------------|
-| ![Home](screenshots/home1.png) | ![Search](screenshots/search1.png) |
-
-> 📂 Make sure your screenshots are saved in a `screenshots` folder in your repo.
+| Home View | Weather Detail View |
+|-----------|---------------------|
+| ![Home](screenshots/home1.png.png) | ![Details](screenshots/detail1.png.png) |
 
 ---
 
 ## 🚀 Features
 
-- Search for any city
-- Get real-time temperature, weather condition, and icon
-- Responsive UI
+- 🔍 Search weather by city name
+- 🌡️ Displays real-time temperature, conditions, and weather icons
+- 📱 Fully responsive UI
+- 🌐 Uses OpenWeatherMap API for real-time data
 
 ---
 
 ## 🛠️ Tech Stack
 
-- 🌐 HTML
-- 🎨 CSS
-- ⚡ JavaScript
+- 💻 HTML5
+- 🎨 CSS3
+- ⚡ JavaScript (Vanilla JS)
 - ☁️ OpenWeatherMap API
 
 ---
 
-## 📂 Project Structure
+## 📁 Folder Structure
 
