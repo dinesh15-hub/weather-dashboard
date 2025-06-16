@@ -15,7 +15,7 @@ A responsive weather dashboard that fetches real-time weather data for any city 
 
 | Home Page | Search Result |
 |-----------|----------------|
-| ![Home](screenshots/home.png) | ![Search](screenshots/search.png) |
+| ![Home](screenshots/home1.png) | ![Search](screenshots/search1.png) |
 
 > 📂 Make sure your screenshots are saved in a `screenshots` folder in your repo.
 
