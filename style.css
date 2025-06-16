@@ -1,0 +1,157 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html {
+  height: 100%;
+  background-color: #1e1e2f;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Background image and blur effect */
+.background {
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #121212, #1f1f1f);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+}
+
+/* Title */
+.container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  color: #00ccff;
+}
+
+/* Search Box */
+.search-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  background-color: #333;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.search-box button {
+  margin-top: 8px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #00ccff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.search-box button:hover {
+  background-color: #009ec3;
+}
+
+/* Autocomplete */
+.autocomplete-box {
+  position: absolute;
+  top: 60px;
+  background-color: #444;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  z-index: 10;
+}
+
+.autocomplete-box div {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #555;
+}
+
+.autocomplete-box div:hover {
+  background-color: #666;
+}
+
+/* Weather Image */
+#weatherImage {
+  margin: 20px 0;
+}
+
+#weatherImage img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Weather Card */
+.weather-card {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+.weather-card img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.weather-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #00ccff;
+}
+
+.weather-card p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  .search-box input,
+  .search-box button {
+    width: 100%;
+  }
+}
