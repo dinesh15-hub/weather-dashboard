@@ -1,26 +1,23 @@
-# 🌦️ Weather Dashboard
+# 🌤️ Weather Dashboard
 
-A modern, responsive weather app that shows real-time weather for any city using the OpenWeatherMap API.
-
-## 🔧 Features
-
-- Real-time temperature, humidity, and wind
-- Weather condition icons
-- City background image (via Unsplash)
-- Autocomplete city search
-- Responsive layout (mobile friendly)
+A modern weather web application that fetches and displays real-time weather data for any city using a clean and minimal UI.
 
 ## 🚀 Live Demo
-[Click here to view it live](https://dinesh15-hub.github.io/weather-dashboard/)
+[🔗 View Live](https://dinesh15-hub.github.io/weather-dashboard/)
 
-## 💡 Tech Used
-
+## 🧰 Tech Stack
 - HTML5
-- CSS3 (Responsive Design)
+- CSS3
 - JavaScript (Fetch API)
 - OpenWeatherMap API
-- Unsplash API (background image)
 
----
+## 📸 Preview
+![Weather Dashboard Preview](https://via.placeholder.com/800x400.png?text=Weather+Dashboard+Preview)
 
-**Made by Dinesh 🚀**
+## 🔧 Features
+- 🌦️ Fetches current weather conditions
+- 🧭 Displays temperature, humidity, wind speed, and weather icon
+- 🔍 Search bar to find any city's weather
+- 📱 Responsive design for mobile and desktop
+
+## 📁 Project Structure
