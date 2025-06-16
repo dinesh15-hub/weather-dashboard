@@ -6,7 +6,7 @@ A sleek, user-friendly weather dashboard that shows real-time weather info using
 
 ## 🔗 Live Demo
 
-🚀 Coming Soon... (or add your GitHub Pages link here)
+🚀 Coming Soon... 
 
 ---
 
